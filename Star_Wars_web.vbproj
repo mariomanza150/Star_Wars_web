@@ -108,6 +108,13 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="Personajes.vb" />
+    <Compile Include="Principal.Master.designer.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.vb">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -127,6 +134,7 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
+    <Content Include="Principal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
